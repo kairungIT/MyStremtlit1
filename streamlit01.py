@@ -21,3 +21,12 @@ html_1 = """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
+colx1, colx2,colx3 = st.columns(3)
+#col1.write("This is column 1")
+#col2.write("This is column 2")
+with colx1:
+   st.image("./pic/iris.jpg")
+with colx2:
+   st.image("./pic/iris02.jpg")
+with colx3:
+   st.image("./pic/iris03.jpg")
