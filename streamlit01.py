@@ -36,4 +36,7 @@ with colx3:
 dt=pd.read_csv('./data/iris.csv')
 st.write(dt.head(10))
 
-st.button("showChart")
+if st.button("show chart"):
+   dt.boxplot()
+else:
+   st.button("Don't show chart")
