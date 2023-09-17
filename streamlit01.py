@@ -29,4 +29,4 @@ with colx1:
 with colx2:
    st.image("./pic/iris02.jfif")
 with colx3:
-   st.image("./pic/iris3.jpg")
+   st.image("./pic/iris1.jpg")
