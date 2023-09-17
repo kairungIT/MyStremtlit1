@@ -9,9 +9,9 @@ with col1:
 with col1:
    #st.header("Versicolor")
    st.header("ไก้รุ่ง เฮงพระพรหม")
-   st.subheader('สาขาวิชาวิทยาการข้อมูล')
-   st.subheader('คณะวิทยาศาสตร์และเทคโนโลยี')
-   st.subheader('มหาวิทยาลัยราชภัฏนครปฐม')
+   st.text('สาขาวิชาวิทยาการข้อมูล')
+   st.write('คณะวิทยาศาสตร์และเทคโนโลยี')
+   st.markdown('มหาวิทยาลัยราชภัฏนครปฐม')
 
 st.header('ไก้รุ่ง เฮงพระพรหม')
 st.subheader('My sub')
