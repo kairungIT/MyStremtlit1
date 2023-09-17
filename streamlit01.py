@@ -13,5 +13,11 @@ with col2:
    st.write('คณะวิทยาศาสตร์และเทคโนโลยี')
    st.markdown('มหาวิทยาลัยราชภัฏนครปฐม')
 
-st.header('ไก้รุ่ง เฮงพระพรหม')
-st.subheader('My sub')
+html_1 = """
+<div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>สถิติข้อมูลดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_1, unsafe_allow_html=True)
+st.markdown("")
+
