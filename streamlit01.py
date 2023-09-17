@@ -49,3 +49,11 @@ if st.button("show chart"):
    st.button("Don't show chart")
 else:
    st.button("Don't show chart")
+
+html_2 = """
+<div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>การทำนายคลาสดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_2, unsafe_allow_html=True)
+st.markdown("")
